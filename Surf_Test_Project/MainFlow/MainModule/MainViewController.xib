@@ -11,6 +11,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MainViewController" customModule="Surf_Test_Project" customModuleProvider="target">
             <connections>
+                <outlet property="tableView" destination="pq0-dO-KRb" id="POy-5U-Yyh"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
@@ -18,8 +19,19 @@
         <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
             <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" estimatedSectionHeaderHeight="-1" sectionFooterHeight="28" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="pq0-dO-KRb">
+                    <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                </tableView>
+            </subviews>
             <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
             <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="pq0-dO-KRb" secondAttribute="trailing" id="N1b-y8-8rz"/>
+                <constraint firstItem="pq0-dO-KRb" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="OyB-a3-QX6"/>
+                <constraint firstAttribute="bottom" secondItem="pq0-dO-KRb" secondAttribute="bottom" id="owJ-yl-LNj"/>
+                <constraint firstItem="pq0-dO-KRb" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="rz6-GS-qPD"/>
+            </constraints>
             <point key="canvasLocation" x="132" y="-11"/>
         </view>
     </objects>
