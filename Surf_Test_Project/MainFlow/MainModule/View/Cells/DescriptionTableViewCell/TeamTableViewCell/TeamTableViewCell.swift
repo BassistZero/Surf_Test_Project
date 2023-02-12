@@ -117,4 +117,12 @@ extension TeamTableViewCell: UICollectionViewDelegateFlowLayout {
         12
     }
 
+    func collectionView(_ collectionView: UICollectionView, willDisplay cell: UICollectionViewCell, forItemAt indexPath: IndexPath) {
+        guard case .example = type else { return }
+        guard indexPath == IndexPath(row: teams.count - 1, section: 0) else { return }
+
+        teams += teams
+        teamCollectionView.reloadData()
+    }
+
 }
