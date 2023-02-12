@@ -14,6 +14,10 @@
 		02D38710298D29DA00476FE5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02D3870E298D29DA00476FE5 /* LaunchScreen.storyboard */; };
 		02FE00082997B2240057A34C /* LabelTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02FEFFF92997B2240057A34C /* LabelTableViewCell.swift */; };
 		02FE00092997B2240057A34C /* LabelTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 02FEFFFA2997B2240057A34C /* LabelTableViewCell.xib */; };
+		02FE000A2997B2240057A34C /* TeamTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 02FEFFFC2997B2240057A34C /* TeamTableViewCell.xib */; };
+		02FE000B2997B2240057A34C /* TeamsCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 02FEFFFE2997B2240057A34C /* TeamsCollectionViewCell.xib */; };
+		02FE000C2997B2240057A34C /* TeamsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02FEFFFF2997B2240057A34C /* TeamsCollectionViewCell.swift */; };
+		02FE000D2997B2240057A34C /* TeamTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02FE00002997B2240057A34C /* TeamTableViewCell.swift */; };
 		02FE000E2997B2240057A34C /* DescriptionTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 02FE00012997B2240057A34C /* DescriptionTableViewCell.xib */; };
 		02FE000F2997B2240057A34C /* DescriptionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02FE00022997B2240057A34C /* DescriptionTableViewCell.swift */; };
 		02FE00102997B2240057A34C /* ImageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02FE00042997B2240057A34C /* ImageTableViewCell.swift */; };
@@ -32,6 +36,7 @@
 		02D38703298D29D900476FE5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		02D3870F298D29DA00476FE5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		02D38711298D29DA00476FE5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		02FE00002997B2240057A34C /* TeamTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TeamTableViewCell.swift; sourceTree = "<group>"; };
 		02FE00012997B2240057A34C /* DescriptionTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DescriptionTableViewCell.xib; sourceTree = "<group>"; };
 		02FE00022997B2240057A34C /* DescriptionTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DescriptionTableViewCell.swift; sourceTree = "<group>"; };
 		02FE00042997B2240057A34C /* ImageTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageTableViewCell.swift; sourceTree = "<group>"; };
@@ -42,6 +47,9 @@
 		02FE00402999028F0057A34C /* UIColor+Configuration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Configuration.swift"; sourceTree = "<group>"; };
 		02FEFFF92997B2240057A34C /* LabelTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LabelTableViewCell.swift; sourceTree = "<group>"; };
 		02FEFFFA2997B2240057A34C /* LabelTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LabelTableViewCell.xib; sourceTree = "<group>"; };
+		02FEFFFC2997B2240057A34C /* TeamTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TeamTableViewCell.xib; sourceTree = "<group>"; };
+		02FEFFFE2997B2240057A34C /* TeamsCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TeamsCollectionViewCell.xib; sourceTree = "<group>"; };
+		02FEFFFF2997B2240057A34C /* TeamsCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TeamsCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -167,6 +175,7 @@
 			isa = PBXGroup;
 			children = (
 				02FEFFF82997B2240057A34C /* LabelTableViewCell */,
+				02FEFFFB2997B2240057A34C /* TeamTableViewCell */,
 				02FE00012997B2240057A34C /* DescriptionTableViewCell.xib */,
 				02FE00022997B2240057A34C /* DescriptionTableViewCell.swift */,
 			);
@@ -180,6 +189,25 @@
 				02FEFFFA2997B2240057A34C /* LabelTableViewCell.xib */,
 			);
 			path = LabelTableViewCell;
+			sourceTree = "<group>";
+		};
+		02FEFFFB2997B2240057A34C /* TeamTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				02FEFFFD2997B2240057A34C /* TeamsCollectionViewCell */,
+				02FEFFFC2997B2240057A34C /* TeamTableViewCell.xib */,
+				02FE00002997B2240057A34C /* TeamTableViewCell.swift */,
+			);
+			path = TeamTableViewCell;
+			sourceTree = "<group>";
+		};
+		02FEFFFD2997B2240057A34C /* TeamsCollectionViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				02FEFFFE2997B2240057A34C /* TeamsCollectionViewCell.xib */,
+				02FEFFFF2997B2240057A34C /* TeamsCollectionViewCell.swift */,
+			);
+			path = TeamsCollectionViewCell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -241,6 +269,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				02FE00112997B2240057A34C /* ImageTableViewCell.xib in Resources */,
+				02FE000A2997B2240057A34C /* TeamTableViewCell.xib in Resources */,
+				02FE000B2997B2240057A34C /* TeamsCollectionViewCell.xib in Resources */,
 				02FE00122997B2240057A34C /* MainViewController.xib in Resources */,
 				02FE000E2997B2240057A34C /* DescriptionTableViewCell.xib in Resources */,
 				02FE00092997B2240057A34C /* LabelTableViewCell.xib in Resources */,
@@ -260,7 +290,9 @@
 				025BFAA4298E87B400917C5B /* SceneDelegate.swift in Sources */,
 				02FE00132997B2240057A34C /* MainViewController.swift in Sources */,
 				02FE00082997B2240057A34C /* LabelTableViewCell.swift in Sources */,
+				02FE000C2997B2240057A34C /* TeamsCollectionViewCell.swift in Sources */,
 				02FE00412999028F0057A34C /* UIColor+Configuration.swift in Sources */,
+				02FE000D2997B2240057A34C /* TeamTableViewCell.swift in Sources */,
 				0226AF102993E7CC00714180 /* UIFont+Configuration.swift in Sources */,
 				02FE00102997B2240057A34C /* ImageTableViewCell.swift in Sources */,
 				02FE000F2997B2240057A34C /* DescriptionTableViewCell.swift in Sources */,
