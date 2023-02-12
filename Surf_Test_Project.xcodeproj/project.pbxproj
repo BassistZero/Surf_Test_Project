@@ -9,13 +9,13 @@
 /* Begin PBXBuildFile section */
 		0226AF102993E7CC00714180 /* UIFont+Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0226AF0F2993E7CC00714180 /* UIFont+Configuration.swift */; };
 		025BFA96298E754B00917C5B /* Icons.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 025BFA95298E754A00917C5B /* Icons.xcassets */; };
-		025BFA9C298E775300917C5B /* ImageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 025BFA9A298E775300917C5B /* ImageTableViewCell.swift */; };
-		025BFA9D298E775300917C5B /* ImageTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 025BFA9B298E775300917C5B /* ImageTableViewCell.xib */; };
 		025BFAA4298E87B400917C5B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 025BFAA3298E87B400917C5B /* SceneDelegate.swift */; };
 		02D38704298D29D900476FE5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02D38703298D29D900476FE5 /* AppDelegate.swift */; };
 		02D38710298D29DA00476FE5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02D3870E298D29DA00476FE5 /* LaunchScreen.storyboard */; };
 		02FE000E2997B2240057A34C /* DescriptionTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 02FE00012997B2240057A34C /* DescriptionTableViewCell.xib */; };
 		02FE000F2997B2240057A34C /* DescriptionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02FE00022997B2240057A34C /* DescriptionTableViewCell.swift */; };
+		02FE00102997B2240057A34C /* ImageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02FE00042997B2240057A34C /* ImageTableViewCell.swift */; };
+		02FE00112997B2240057A34C /* ImageTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 02FE00052997B2240057A34C /* ImageTableViewCell.xib */; };
 		02FE00122997B2240057A34C /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 02FE00062997B2240057A34C /* MainViewController.xib */; };
 		02FE00132997B2240057A34C /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02FE00072997B2240057A34C /* MainViewController.swift */; };
 		02FE0036299817D30057A34C /* UIButton+Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02FE0035299817D30057A34C /* UIButton+Configuration.swift */; };
@@ -25,8 +25,6 @@
 /* Begin PBXFileReference section */
 		0226AF0F2993E7CC00714180 /* UIFont+Configuration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIFont+Configuration.swift"; sourceTree = "<group>"; };
 		025BFA95298E754A00917C5B /* Icons.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Icons.xcassets; sourceTree = "<group>"; };
-		025BFA9A298E775300917C5B /* ImageTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageTableViewCell.swift; sourceTree = "<group>"; };
-		025BFA9B298E775300917C5B /* ImageTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ImageTableViewCell.xib; sourceTree = "<group>"; };
 		025BFAA3298E87B400917C5B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		02D38700298D29D900476FE5 /* Surf_Test_Project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Surf_Test_Project.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		02D38703298D29D900476FE5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -34,6 +32,8 @@
 		02D38711298D29DA00476FE5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		02FE00012997B2240057A34C /* DescriptionTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DescriptionTableViewCell.xib; sourceTree = "<group>"; };
 		02FE00022997B2240057A34C /* DescriptionTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DescriptionTableViewCell.swift; sourceTree = "<group>"; };
+		02FE00042997B2240057A34C /* ImageTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageTableViewCell.swift; sourceTree = "<group>"; };
+		02FE00052997B2240057A34C /* ImageTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ImageTableViewCell.xib; sourceTree = "<group>"; };
 		02FE00062997B2240057A34C /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
 		02FE00072997B2240057A34C /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		02FE0035299817D30057A34C /* UIButton+Configuration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton+Configuration.swift"; sourceTree = "<group>"; };
@@ -77,23 +77,6 @@
 			path = Icons;
 			sourceTree = "<group>";
 		};
-		025BFA98298E773300917C5B /* Cells */ = {
-			isa = PBXGroup;
-			children = (
-				025BFA99298E773D00917C5B /* ImageTableViewCell */,
-			);
-			path = Cells;
-			sourceTree = "<group>";
-		};
-		025BFA99298E773D00917C5B /* ImageTableViewCell */ = {
-			isa = PBXGroup;
-			children = (
-				025BFA9A298E775300917C5B /* ImageTableViewCell.swift */,
-				025BFA9B298E775300917C5B /* ImageTableViewCell.xib */,
-			);
-			path = ImageTableViewCell;
-			sourceTree = "<group>";
-		};
 		02D386F7298D29D900476FE5 = {
 			isa = PBXGroup;
 			children = (
@@ -113,6 +96,7 @@
 		02D38702298D29D900476FE5 /* Surf_Test_Project */ = {
 			isa = PBXGroup;
 			children = (
+				0226AF0E2993E7B100714180 /* Extensions */,
 				02D3871B298D303400476FE5 /* Application */,
 				02D3871C298D30B700476FE5 /* MainFlow */,
 				025BFA94298E752600917C5B /* Resourses */,
@@ -142,9 +126,18 @@
 		02D3871D298D312300476FE5 /* MainModule */ = {
 			isa = PBXGroup;
 			children = (
-				025BFA98298E773300917C5B /* Cells */,
+				02FEFFF52997B2240057A34C /* View */,
 			);
 			path = MainModule;
+			sourceTree = "<group>";
+		};
+		02FE00032997B2240057A34C /* ImageTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				02FE00042997B2240057A34C /* ImageTableViewCell.swift */,
+				02FE00052997B2240057A34C /* ImageTableViewCell.xib */,
+			);
+			path = ImageTableViewCell;
 			sourceTree = "<group>";
 		};
 		02FEFFF52997B2240057A34C /* View */ = {
@@ -160,6 +153,7 @@
 		02FEFFF62997B2240057A34C /* Cells */ = {
 			isa = PBXGroup;
 			children = (
+				02FE00032997B2240057A34C /* ImageTableViewCell */,
 				02FEFFF72997B2240057A34C /* DescriptionTableViewCell */,
 			);
 			path = Cells;
@@ -232,10 +226,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				02FE00112997B2240057A34C /* ImageTableViewCell.xib in Resources */,
 				02FE00122997B2240057A34C /* MainViewController.xib in Resources */,
 				02FE000E2997B2240057A34C /* DescriptionTableViewCell.xib in Resources */,
 				02D38710298D29DA00476FE5 /* LaunchScreen.storyboard in Resources */,
-				025BFA9D298E775300917C5B /* ImageTableViewCell.xib in Resources */,
 				025BFA96298E754B00917C5B /* Icons.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -249,10 +243,10 @@
 			files = (
 				02FE0036299817D30057A34C /* UIButton+Configuration.swift in Sources */,
 				025BFAA4298E87B400917C5B /* SceneDelegate.swift in Sources */,
-				025BFA9C298E775300917C5B /* ImageTableViewCell.swift in Sources */,
 				02FE00132997B2240057A34C /* MainViewController.swift in Sources */,
 				02FE00412999028F0057A34C /* UIColor+Configuration.swift in Sources */,
 				0226AF102993E7CC00714180 /* UIFont+Configuration.swift in Sources */,
+				02FE00102997B2240057A34C /* ImageTableViewCell.swift in Sources */,
 				02FE000F2997B2240057A34C /* DescriptionTableViewCell.swift in Sources */,
 				02D38704298D29D900476FE5 /* AppDelegate.swift in Sources */,
 			);
