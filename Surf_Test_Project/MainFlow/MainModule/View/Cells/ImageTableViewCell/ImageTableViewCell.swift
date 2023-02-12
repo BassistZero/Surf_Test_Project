@@ -1,6 +1,6 @@
 import UIKit
 
-class ImageTableViewCell: UITableViewCell {
+final class ImageTableViewCell: UITableViewCell {
 
     // MARK: - Private Views
 

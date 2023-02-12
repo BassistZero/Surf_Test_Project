@@ -13,20 +13,20 @@
         <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="522" id="KGk-i7-Jjw" customClass="ImageTableViewCell" customModule="Surf_Test_Project" customModuleProvider="target">
             <rect key="frame" x="0.0" y="0.0" width="376" height="522"/>
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" ambiguous="YES" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
                 <rect key="frame" x="0.0" y="0.0" width="376" height="522"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="9k7-5G-DSO">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="521"/>
+                        <rect key="frame" x="0.0" y="0.0" width="376" height="522.33333333333337"/>
                         <constraints>
-                            <constraint firstAttribute="width" constant="375" id="3df-wK-zzE"/>
-                            <constraint firstAttribute="height" constant="521" id="zwl-x3-RWp"/>
+                            <constraint firstAttribute="width" secondItem="9k7-5G-DSO" secondAttribute="height" multiplier="375:521" id="bNy-zY-YHM"/>
                         </constraints>
                     </imageView>
                 </subviews>
                 <constraints>
                     <constraint firstAttribute="trailing" secondItem="9k7-5G-DSO" secondAttribute="trailing" id="0tL-uw-e8k"/>
+                    <constraint firstItem="9k7-5G-DSO" firstAttribute="centerX" secondItem="H2p-sc-9uM" secondAttribute="centerX" id="SQ5-Sr-Vqa"/>
                     <constraint firstAttribute="bottom" secondItem="9k7-5G-DSO" secondAttribute="bottom" id="Tlz-pL-Klb"/>
                     <constraint firstItem="9k7-5G-DSO" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="ghA-Vg-I0D"/>
                     <constraint firstItem="9k7-5G-DSO" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="wfg-Kx-9lc"/>
