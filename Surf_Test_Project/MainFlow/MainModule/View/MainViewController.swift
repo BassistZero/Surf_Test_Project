@@ -103,6 +103,10 @@ private extension MainViewController {
     func configureApplicationButton() {
         sendApplicationButton.configureApplicationButton(with: "Отправить заявку")
 
+        didApplicationButtonTapped = { [weak self] in
+            self?.presenter?.showMessage()
+        }
+
         sendApplicationButton.addTarget(self, action: #selector(showAlert), for: .touchUpInside)
     }
 
