@@ -97,6 +97,11 @@ extension TeamTableViewCell: UICollectionViewDelegate {
 
     func collectionView(_ collectionView: UICollectionView, didDeselectItemAt indexPath: IndexPath) {
         collectionView.moveItem(at: indexPath, to: .init(row: teams.count - 1, section: 0))
+        UIImpactFeedbackGenerator.action()
+    }
+
+    func collectionView(_ collectionView: UICollectionView, didHighlightItemAt indexPath: IndexPath) {
+        UIImpactFeedbackGenerator.decision()
     }
 
 }

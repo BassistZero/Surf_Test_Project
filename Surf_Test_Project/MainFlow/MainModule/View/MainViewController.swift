@@ -105,6 +105,7 @@ private extension MainViewController {
 
         didApplicationButtonTapped = { [weak self] in
             self?.presenter?.showMessage()
+            UIImpactFeedbackGenerator.action()
         }
 
         sendApplicationButton.addTarget(self, action: #selector(showAlert), for: .touchUpInside)
