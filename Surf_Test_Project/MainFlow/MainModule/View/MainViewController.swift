@@ -4,6 +4,12 @@ import UIKit
 
     @IBOutlet private weak var backgroundTableView: UITableView!
     @IBOutlet private weak var foregroundTableView: UITableView!
+    @IBOutlet private weak var sendApplicationButton: UIButton!
+    @IBOutlet private weak var applicationLabel: UILabel!
+
+    // MARK: - Events
+
+    var didApplicationButtonTapped: (() -> Void)?
 
     // MARK: - UIViewController
 
@@ -34,6 +40,7 @@ private extension MainViewController {
 
     func configureAppearance() {
         configureTableViews()
+        configureFooterAppearance()
     }
 
     func configureTableViews() {
@@ -68,6 +75,21 @@ private extension MainViewController {
 
     }
 
+    func configureFooterAppearance() {
+        configureApplicationLabel()
+        configureApplicationButton()
+    }
+
+    func configureApplicationLabel() {
+        applicationLabel.text = "Хочешь к нам?"
+    }
+
+    func configureApplicationButton() {
+        sendApplicationButton.configureApplicationButton(with: "Отправить заявку")
+
+        sendApplicationButton.addTarget(self, action: #selector(showAlert), for: .touchUpInside)
+    }
+
     func configureCells(for indexPath: IndexPath, in tableView: UITableView) -> UITableViewCell {
         if tableView === backgroundTableView {
             switch indexPath.row {
@@ -94,3 +116,12 @@ private extension MainViewController {
 
 }
 
+// MARK: - Private methods
+
+private extension MainViewController {
+
+    @objc func showAlert() {
+        didApplicationButtonTapped?()
+    }
+
+}
