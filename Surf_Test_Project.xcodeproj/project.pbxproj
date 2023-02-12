@@ -19,6 +19,7 @@
 		02FE00122997B2240057A34C /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 02FE00062997B2240057A34C /* MainViewController.xib */; };
 		02FE00132997B2240057A34C /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02FE00072997B2240057A34C /* MainViewController.swift */; };
 		02FE0036299817D30057A34C /* UIButton+Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02FE0035299817D30057A34C /* UIButton+Configuration.swift */; };
+		02FE00412999028F0057A34C /* UIColor+Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02FE00402999028F0057A34C /* UIColor+Configuration.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		02FE00062997B2240057A34C /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
 		02FE00072997B2240057A34C /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		02FE0035299817D30057A34C /* UIButton+Configuration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton+Configuration.swift"; sourceTree = "<group>"; };
+		02FE00402999028F0057A34C /* UIColor+Configuration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Configuration.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 			children = (
 				0226AF0F2993E7CC00714180 /* UIFont+Configuration.swift */,
 				02FE0035299817D30057A34C /* UIButton+Configuration.swift */,
+				02FE00402999028F0057A34C /* UIColor+Configuration.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -248,6 +251,7 @@
 				025BFAA4298E87B400917C5B /* SceneDelegate.swift in Sources */,
 				025BFA9C298E775300917C5B /* ImageTableViewCell.swift in Sources */,
 				02FE00132997B2240057A34C /* MainViewController.swift in Sources */,
+				02FE00412999028F0057A34C /* UIColor+Configuration.swift in Sources */,
 				0226AF102993E7CC00714180 /* UIFont+Configuration.swift in Sources */,
 				02FE000F2997B2240057A34C /* DescriptionTableViewCell.swift in Sources */,
 				02D38704298D29D900476FE5 /* AppDelegate.swift in Sources */,
