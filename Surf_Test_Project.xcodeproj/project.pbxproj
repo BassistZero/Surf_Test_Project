@@ -12,6 +12,8 @@
 		025BFAA4298E87B400917C5B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 025BFAA3298E87B400917C5B /* SceneDelegate.swift */; };
 		02D38704298D29D900476FE5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02D38703298D29D900476FE5 /* AppDelegate.swift */; };
 		02D38710298D29DA00476FE5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02D3870E298D29DA00476FE5 /* LaunchScreen.storyboard */; };
+		02FE00082997B2240057A34C /* LabelTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02FEFFF92997B2240057A34C /* LabelTableViewCell.swift */; };
+		02FE00092997B2240057A34C /* LabelTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 02FEFFFA2997B2240057A34C /* LabelTableViewCell.xib */; };
 		02FE000E2997B2240057A34C /* DescriptionTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 02FE00012997B2240057A34C /* DescriptionTableViewCell.xib */; };
 		02FE000F2997B2240057A34C /* DescriptionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02FE00022997B2240057A34C /* DescriptionTableViewCell.swift */; };
 		02FE00102997B2240057A34C /* ImageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02FE00042997B2240057A34C /* ImageTableViewCell.swift */; };
@@ -38,6 +40,8 @@
 		02FE00072997B2240057A34C /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		02FE0035299817D30057A34C /* UIButton+Configuration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton+Configuration.swift"; sourceTree = "<group>"; };
 		02FE00402999028F0057A34C /* UIColor+Configuration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Configuration.swift"; sourceTree = "<group>"; };
+		02FEFFF92997B2240057A34C /* LabelTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LabelTableViewCell.swift; sourceTree = "<group>"; };
+		02FEFFFA2997B2240057A34C /* LabelTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LabelTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -162,10 +166,20 @@
 		02FEFFF72997B2240057A34C /* DescriptionTableViewCell */ = {
 			isa = PBXGroup;
 			children = (
+				02FEFFF82997B2240057A34C /* LabelTableViewCell */,
 				02FE00012997B2240057A34C /* DescriptionTableViewCell.xib */,
 				02FE00022997B2240057A34C /* DescriptionTableViewCell.swift */,
 			);
 			path = DescriptionTableViewCell;
+			sourceTree = "<group>";
+		};
+		02FEFFF82997B2240057A34C /* LabelTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				02FEFFF92997B2240057A34C /* LabelTableViewCell.swift */,
+				02FEFFFA2997B2240057A34C /* LabelTableViewCell.xib */,
+			);
+			path = LabelTableViewCell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -229,6 +243,7 @@
 				02FE00112997B2240057A34C /* ImageTableViewCell.xib in Resources */,
 				02FE00122997B2240057A34C /* MainViewController.xib in Resources */,
 				02FE000E2997B2240057A34C /* DescriptionTableViewCell.xib in Resources */,
+				02FE00092997B2240057A34C /* LabelTableViewCell.xib in Resources */,
 				02D38710298D29DA00476FE5 /* LaunchScreen.storyboard in Resources */,
 				025BFA96298E754B00917C5B /* Icons.xcassets in Resources */,
 			);
@@ -244,6 +259,7 @@
 				02FE0036299817D30057A34C /* UIButton+Configuration.swift in Sources */,
 				025BFAA4298E87B400917C5B /* SceneDelegate.swift in Sources */,
 				02FE00132997B2240057A34C /* MainViewController.swift in Sources */,
+				02FE00082997B2240057A34C /* LabelTableViewCell.swift in Sources */,
 				02FE00412999028F0057A34C /* UIColor+Configuration.swift in Sources */,
 				0226AF102993E7CC00714180 /* UIFont+Configuration.swift in Sources */,
 				02FE00102997B2240057A34C /* ImageTableViewCell.swift in Sources */,
