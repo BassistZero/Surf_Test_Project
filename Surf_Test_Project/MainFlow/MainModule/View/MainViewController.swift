@@ -60,6 +60,8 @@ private extension MainViewController {
         foregroundTableView.bounces = false
 
         foregroundTableView.contentInset = .init(top: 420, left: 0, bottom: 0, right: 0)
+
+        foregroundTableView.backgroundColor = .transparent()
     }
 
     func configureBackgroundTableView() {
@@ -82,6 +84,8 @@ private extension MainViewController {
 
     func configureApplicationLabel() {
         applicationLabel.text = "Хочешь к нам?"
+        applicationLabel.font = .smallRegular()
+        applicationLabel.textColor = .description()
     }
 
     func configureApplicationButton() {

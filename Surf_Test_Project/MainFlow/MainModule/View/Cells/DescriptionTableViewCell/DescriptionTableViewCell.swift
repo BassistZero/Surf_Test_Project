@@ -20,6 +20,7 @@ final class DescriptionTableViewCell: UITableViewCell {
 private extension DescriptionTableViewCell {
 
     func configureAppearance() {
+        backgroundColor = .transparent()
         configureTableView()
     }
 
@@ -30,6 +31,9 @@ private extension DescriptionTableViewCell {
         tableView.showsHorizontalScrollIndicator = false
 
         tableView.isScrollEnabled = false
+
+        tableView.backgroundColor = .transparent()
+    }
     }
 
 }
