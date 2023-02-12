@@ -1,6 +1,6 @@
 import UIKit
 
-class SceneDelegate: UIResponder, UIWindowSceneDelegate {
+final class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
     var window: UIWindow?
 
@@ -16,10 +16,11 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 private extension SceneDelegate {
 
     func makeWindow(_ windowScene: UIWindowScene) {
-        let viewController = MainViewController()
+        let mainViewController = MainModuleConfigurator().configureMainModule()
 
         window = UIWindow(windowScene: windowScene)
-        window?.rootViewController = viewController
+        window?.overrideUserInterfaceStyle = .light
+        window?.rootViewController = mainViewController
         window?.makeKeyAndVisible()
     }
 
