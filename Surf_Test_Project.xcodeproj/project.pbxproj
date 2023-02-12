@@ -25,6 +25,8 @@
 		02FE00122997B2240057A34C /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 02FE00062997B2240057A34C /* MainViewController.xib */; };
 		02FE00132997B2240057A34C /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02FE00072997B2240057A34C /* MainViewController.swift */; };
 		02FE0036299817D30057A34C /* UIButton+Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02FE0035299817D30057A34C /* UIButton+Configuration.swift */; };
+		02FE003E2998F9E40057A34C /* SpaceTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02FE003C2998F9E40057A34C /* SpaceTableViewCell.swift */; };
+		02FE003F2998F9E40057A34C /* SpaceTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 02FE003D2998F9E40057A34C /* SpaceTableViewCell.xib */; };
 		02FE00412999028F0057A34C /* UIColor+Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02FE00402999028F0057A34C /* UIColor+Configuration.swift */; };
 /* End PBXBuildFile section */
 
@@ -44,6 +46,8 @@
 		02FE00062997B2240057A34C /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
 		02FE00072997B2240057A34C /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		02FE0035299817D30057A34C /* UIButton+Configuration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton+Configuration.swift"; sourceTree = "<group>"; };
+		02FE003C2998F9E40057A34C /* SpaceTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpaceTableViewCell.swift; sourceTree = "<group>"; };
+		02FE003D2998F9E40057A34C /* SpaceTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SpaceTableViewCell.xib; sourceTree = "<group>"; };
 		02FE00402999028F0057A34C /* UIColor+Configuration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Configuration.swift"; sourceTree = "<group>"; };
 		02FEFFF92997B2240057A34C /* LabelTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LabelTableViewCell.swift; sourceTree = "<group>"; };
 		02FEFFFA2997B2240057A34C /* LabelTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LabelTableViewCell.xib; sourceTree = "<group>"; };
@@ -152,6 +156,15 @@
 			path = ImageTableViewCell;
 			sourceTree = "<group>";
 		};
+		02FE003B2998F9C70057A34C /* SpaceTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				02FE003C2998F9E40057A34C /* SpaceTableViewCell.swift */,
+				02FE003D2998F9E40057A34C /* SpaceTableViewCell.xib */,
+			);
+			path = SpaceTableViewCell;
+			sourceTree = "<group>";
+		};
 		02FEFFF52997B2240057A34C /* View */ = {
 			isa = PBXGroup;
 			children = (
@@ -174,6 +187,7 @@
 		02FEFFF72997B2240057A34C /* DescriptionTableViewCell */ = {
 			isa = PBXGroup;
 			children = (
+				02FE003B2998F9C70057A34C /* SpaceTableViewCell */,
 				02FEFFF82997B2240057A34C /* LabelTableViewCell */,
 				02FEFFFB2997B2240057A34C /* TeamTableViewCell */,
 				02FE00012997B2240057A34C /* DescriptionTableViewCell.xib */,
@@ -268,6 +282,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				02FE003F2998F9E40057A34C /* SpaceTableViewCell.xib in Resources */,
 				02FE00112997B2240057A34C /* ImageTableViewCell.xib in Resources */,
 				02FE000A2997B2240057A34C /* TeamTableViewCell.xib in Resources */,
 				02FE000B2997B2240057A34C /* TeamsCollectionViewCell.xib in Resources */,
@@ -288,6 +303,7 @@
 			files = (
 				02FE0036299817D30057A34C /* UIButton+Configuration.swift in Sources */,
 				025BFAA4298E87B400917C5B /* SceneDelegate.swift in Sources */,
+				02FE003E2998F9E40057A34C /* SpaceTableViewCell.swift in Sources */,
 				02FE00132997B2240057A34C /* MainViewController.swift in Sources */,
 				02FE00082997B2240057A34C /* LabelTableViewCell.swift in Sources */,
 				02FE000C2997B2240057A34C /* TeamsCollectionViewCell.swift in Sources */,

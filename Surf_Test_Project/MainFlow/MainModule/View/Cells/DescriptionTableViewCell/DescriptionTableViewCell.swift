@@ -20,7 +20,7 @@ final class DescriptionTableViewCell: UITableViewCell {
 extension DescriptionTableViewCell: UITableViewDataSource {
 
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        5
+        6
     }
 
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
@@ -30,6 +30,7 @@ extension DescriptionTableViewCell: UITableViewDataSource {
         case 2: return configureTeamCell(type: .example)
         case 3: return configureLabelCell(text: "Получай стипендию, выстраивай удобный график, работай на современном железе.")
         case 4: return configureTeamCell(type: .choose)
+        case 5: return configureSpaceCell()
         default: return UITableViewCell()
         }
     }
@@ -50,6 +51,7 @@ private extension DescriptionTableViewCell {
 
         tableView.register(UINib(nibName: "\(LabelTableViewCell.self)", bundle: .main), forCellReuseIdentifier: "\(LabelTableViewCell.self)")
         tableView.register(UINib(nibName: "\(TeamTableViewCell.self)", bundle: .main), forCellReuseIdentifier: "\(TeamTableViewCell.self)")
+        tableView.register(UINib(nibName: "\(SpaceTableViewCell.self)", bundle: .main), forCellReuseIdentifier: "\(SpaceTableViewCell.self)")
 
         tableView.separatorStyle = .none
 
@@ -79,6 +81,8 @@ private extension DescriptionTableViewCell {
         cell.text = text
 
         return cell
+    }
+
     func configureTeamCell(type: TeamTableViewCell.ViewType) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "\(TeamTableViewCell.self)")
         guard let cell = cell as? TeamTableViewCell else { return UITableViewCell() }
@@ -87,6 +91,11 @@ private extension DescriptionTableViewCell {
 
         return cell
     }
+
+    func configureSpaceCell() -> UITableViewCell {
+        let cell = tableView.dequeueReusableCell(withIdentifier: "\(SpaceTableViewCell.self)")
+        guard let cell = cell as? SpaceTableViewCell else { return UITableViewCell() }
+        return cell
     }
 
 }
