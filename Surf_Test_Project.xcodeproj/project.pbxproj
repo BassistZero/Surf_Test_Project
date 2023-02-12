@@ -31,6 +31,7 @@
 		02FE001B2997B37F0057A34C /* ModuleTransitionable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02FE001A2997B37F0057A34C /* ModuleTransitionable.swift */; };
 		02FE001D2997B3D40057A34C /* MainViewOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02FE001C2997B3D40057A34C /* MainViewOutput.swift */; };
 		02FE001F2997B3E90057A34C /* MainViewInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02FE001E2997B3E90057A34C /* MainViewInput.swift */; };
+		02FE00342997CAF50057A34C /* UIAlertController+Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02FE00332997CAF50057A34C /* UIAlertController+Configuration.swift */; };
 		02FE0036299817D30057A34C /* UIButton+Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02FE0035299817D30057A34C /* UIButton+Configuration.swift */; };
 		02FE003E2998F9E40057A34C /* SpaceTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02FE003C2998F9E40057A34C /* SpaceTableViewCell.swift */; };
 		02FE003F2998F9E40057A34C /* SpaceTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 02FE003D2998F9E40057A34C /* SpaceTableViewCell.xib */; };
@@ -59,6 +60,7 @@
 		02FE001A2997B37F0057A34C /* ModuleTransitionable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModuleTransitionable.swift; sourceTree = "<group>"; };
 		02FE001C2997B3D40057A34C /* MainViewOutput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewOutput.swift; sourceTree = "<group>"; };
 		02FE001E2997B3E90057A34C /* MainViewInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewInput.swift; sourceTree = "<group>"; };
+		02FE00332997CAF50057A34C /* UIAlertController+Configuration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIAlertController+Configuration.swift"; sourceTree = "<group>"; };
 		02FE0035299817D30057A34C /* UIButton+Configuration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton+Configuration.swift"; sourceTree = "<group>"; };
 		02FE003C2998F9E40057A34C /* SpaceTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpaceTableViewCell.swift; sourceTree = "<group>"; };
 		02FE003D2998F9E40057A34C /* SpaceTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SpaceTableViewCell.xib; sourceTree = "<group>"; };
@@ -85,6 +87,7 @@
 			isa = PBXGroup;
 			children = (
 				0226AF0F2993E7CC00714180 /* UIFont+Configuration.swift */,
+				02FE00332997CAF50057A34C /* UIAlertController+Configuration.swift */,
 				02FE0035299817D30057A34C /* UIButton+Configuration.swift */,
 				02FE00402999028F0057A34C /* UIColor+Configuration.swift */,
 			);
@@ -367,6 +370,7 @@
 				0226AF102993E7CC00714180 /* UIFont+Configuration.swift in Sources */,
 				02DBF5352996B366004CB573 /* MainModuleConfigurator.swift in Sources */,
 				02FE00102997B2240057A34C /* ImageTableViewCell.swift in Sources */,
+				02FE00342997CAF50057A34C /* UIAlertController+Configuration.swift in Sources */,
 				02FE000F2997B2240057A34C /* DescriptionTableViewCell.swift in Sources */,
 				02FE001D2997B3D40057A34C /* MainViewOutput.swift in Sources */,
 				02FE00162997B2D00057A34C /* MainRouterInput.swift in Sources */,
