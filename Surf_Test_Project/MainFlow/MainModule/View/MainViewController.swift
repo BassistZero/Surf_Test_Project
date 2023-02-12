@@ -1,11 +1,17 @@
 import UIKit
 
+final class MainViewController: UIViewController, ModuleTransitionable {
+
     // MARK: - Private Outlets
 
     @IBOutlet private weak var backgroundTableView: UITableView!
     @IBOutlet private weak var foregroundTableView: UITableView!
     @IBOutlet private weak var sendApplicationButton: UIButton!
     @IBOutlet private weak var applicationLabel: UILabel!
+
+    // MARK: - Properties
+
+    var presenter: MainViewOutput?
 
     // MARK: - Events
 
@@ -17,6 +23,12 @@ import UIKit
         super.viewWillAppear(animated)
         configureAppearance()
     }
+
+}
+
+// MARK: - MainViewInput
+
+extension MainViewController: MainViewInput {
 
 }
 
